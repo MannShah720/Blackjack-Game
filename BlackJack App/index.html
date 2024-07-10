@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">DRAW CARD</button>
+        <p id="player-el"></p>
+        <div class="guide">
+            <p id="guide-head">How to play:</p>
+            <p class="info">Each round costs $25 to play</p>
+            <p class="info">You earn $100 if you win</p>
+            <p class="info">You start with 2 cards</p>
+            <p class="info">If sum is less than 21, you keep drawing cards</p>
+            <p class="info">If you get exactly 21, you win</p>
+            <p class="info">If you get over 21, you lose</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
